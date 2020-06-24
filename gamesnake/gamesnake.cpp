@@ -17,6 +17,7 @@ void Setup()
 {
 	gameOver = false;
 	dir = STOP;
+	dir = dir;
 	x = witch / 2;
 	y = height / 2;
 	fruitX = rand() % witch;
